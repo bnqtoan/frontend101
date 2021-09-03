@@ -1,0 +1,211 @@
+body{
+    color: #21243D;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.fluid-container{
+    padding: 0 60px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu{
+    list-style: none;
+    margin-top: 30px;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row{
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.clear{
+    clear: both;
+}
+
+.col-1\/2, .col-1\/3, .col-2\/3,
+.col-1\/4, .col-3\/4
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-1\/2{
+    width: 50%;
+}
+.col-1\/3{
+    width: 33.3333%;
+}
+.col-1\/4{
+    width: 25%;
+}
+.col-2\/3{
+    width: 66.6667%;
+}
+.col-3\/4{
+    width: 75%;
+}
+
+.align-right{
+    float: right;
+}
+
+.btn{
+    background: #FF6464;
+    border-radius: 2px;   
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+.btn:hover{
+    background: #d03535;
+}
+
+.btn-link{
+    color: #00A8CC;
+}
+
+.bg-blue-light{
+    background-color: #EDF7FA;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.my-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.py-30{
+    padding: 30px 0;
+}
+.sep{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+}
+.sep-line{
+    border: none;
+    border-top:1px solid #e0e0e0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.inline-rows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-label{
+    background: #142850;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px 3px;
+}
+
+/* start hero banner */
+.hero-banner{
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
+.hero-banner h1{
+    font-size: 44px;
+    line-height: 60px;
+}
+.hero-banner p{
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+/* end hero banner */
+
+/* start recent posts */
+.box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.box-title{
+    font-size: 26px;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.box-meta{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.box-meta span{
+    display: inline-block;
+}
+.box-content{
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0;
+}
+/* end recent posts */
+
+
+/* start feature work*/
+
+.feature-work-title{
+    font-size: 30px;
+    line-height: 44px;   
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.feature-work-meta{
+
+    margin-bottom: 16px;
+}
+.feature-work-meta .card-label{
+    margin-right: 30px;
+}
+.feature-work-content{
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* end feature work*/
+
+/* start footer*/
+.footer{
+    margin-top: 50px;
+    padding: 50px 0;
+    text-align: center;
+}
+.social{
+    margin-bottom: 36px;
+}
+.social a{
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.social a:first-child{
+    margin-left: 0;
+}
+.social a:last-child{
+    margin-right: 0;
+}
+/* end footer */
