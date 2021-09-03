@@ -1,0 +1,55 @@
+/*
+primary: #0052CC
+secondary: #FFAB00
+danger: #FF5630
+success: #36B37E
+info: #6554C0
+text: #091E42
+*/
+.bg-white{
+    background-color: #fff;
+}
+.text-danger{
+    color: #FF5630;   
+}
+
+body{
+    color: #494949;
+    background: #e8e8e8 url('../images/pexels-david-bartus-586687.jpg') fixed no-repeat center center;
+    line-height: 1.5;
+}
+
+.highlight{
+    border-left: #0052CC 5px solid;
+    background: #c9defd;
+}
+.name{
+  padding: 16px;
+  text-transform: uppercase;
+}
+.intro{
+    text-indent: 25px;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0052CC;
+    font-weight: bold;
+}
+a:visited{
+    color: #FF5630;
+}
+
+.box{
+    /* position: relative; */
+}
+
+.box-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
