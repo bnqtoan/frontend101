@@ -1,0 +1,52 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: red;   
+    font-size: 16px; /* em rem px % vw vh */
+}
+
+.text-red{
+    color: red;
+}
+
+#diff{
+    color: blue;
+}
+
+a{
+    text-decoration: underline;
+}
+a:hover{
+    color:rgb(134, 12, 12);
+    text-decoration: none;
+}
+
+a[href="#"]{
+    text-decoration: none;  
+}
+
+.content{
+    background-color: #909090;
+    padding: 16px;
+    color: rgb(134, 12, 12);
+}
+.content ul{
+    color: rgb(54, 42, 215);
+}
+.content>ul>li{
+    font-style: italic;
+}
+.content ul li li{
+    color: rgb(52, 19, 110);
+    font-style: normal;
+}
+
+.content p:first-child{
+    font-size: 30px;
+}
+
+.content p:last-child{
+    color: yellow;
+}
