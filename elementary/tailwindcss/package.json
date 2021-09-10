@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss --postcss -i ./src/style.css -o ./css/style.css",
+    "watch": "npx tailwindcss --postcss  -i ./src/style.css -o ./css/style.css --watch",
+    "build" : "NODE_ENV=production npx tailwindcss --postcss -i ./src/style.css -o ./css/style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.14"
+  }
+}
