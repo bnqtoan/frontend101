@@ -17,6 +17,10 @@
 ## 4. File package.json
 ```
 {
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss --postcss -i ./src/style.css -o ./css/style.css",
     "watch": "npx tailwindcss --postcss  -i ./src/style.css -o ./css/style.css --watch",
