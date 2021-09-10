@@ -60,4 +60,12 @@ html, body{
     .col-3{
         width: 50%;
     }
+    .box-style-3{
+        background-color: lavender;
+    }
+}
+
+
+@media only screen and (min-width: 1366px){
+    
 }

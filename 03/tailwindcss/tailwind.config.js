@@ -6,8 +6,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {
-        "brand": "#ccc"
+      container: {
+        center: true
+      },
+      colors:{
+        brand: "#ffce00"
       }
     },
   },
