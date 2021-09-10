@@ -1,12 +1,14 @@
 ## 1. Cài đặt
 
+`npm init -y`
+
 `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
 
 ## 2. Tạo file config
 
 `npx tailwindcss init -p`
 
-## 3. Tạo file CSS
+## 3. Tạo file src/style.css
 
 ```
 @tailwind base;
@@ -14,7 +16,7 @@
 @tailwind utilities;
 ```
 
-## 4. File package.json
+## 4. Ghi đè nội dung file package.json
 ```
 {
   "name": "tailwind",
@@ -34,7 +36,7 @@
 }
 ```
 
-## 5. File tailwind.config.js
+## 5. Ghi đè nội dung file tailwind.config.js
 ```
 module.exports = {
   mode: 'jit',
@@ -56,6 +58,4 @@ module.exports = {
 
 `npm run watch`
 
-## 7. Production build
-
-`npm run build`
+Giữ cho lệnh này chạy, không tắt terminal
