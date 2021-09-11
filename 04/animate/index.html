@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate.css</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+</head>
+<body>
+    <div class="container px-auto">
+        <h1 class="text-center text-5xl my-10 text-blue-600 wow md:animate__fadeInUp">Hello animate!</h1>
+        <div class="grid sm:grid-cols-2 sm:mt-96 items-center gap-4">
+            <div class="wow md:animate__fadeInLeft">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate aliquam veniam totam et magni minus porro, nesciunt delectus quam ipsum ad blanditiis suscipit voluptatum debitis rem? Quam, quos numquam!
+            </div>
+            <div>
+                  <img class="wow md:animate__fadeInRight" src="./images/image-1.jpg" alt="image-1">  
+            </div>
+        </div>
+        <div class="grid sm:grid-cols-2 sm:mt-96 items-center gap-4">
+            <div class="wow md:animate__fadeInLeft lg:order-last">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate aliquam veniam totam et magni minus porro, nesciunt delectus quam ipsum ad blanditiis suscipit voluptatum debitis rem? Quam, quos numquam!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde minima vel provident cumque quis quo enim! Quae cupiditate tenetur nulla exercitationem facilis quidem perferendis aliquid voluptatum saepe, ut quisquam inventore ipsam? Similique temporibus doloremque enim culpa magni ipsa incidunt, eos sed exercitationem repudiandae ex praesentium animi, minus optio nobis maxime inventore? Dolore velit vitae dolorum provident soluta quibusdam est hic, eaque obcaecati tenetur aliquam ipsa illum saepe cumque excepturi illo voluptatem doloremque unde dolores quam iure veniam. Saepe minima, fugit sapiente ipsum asperiores voluptatum non officiis temporibus quos quidem veniam corrupti reiciendis? Ratione mollitia illo sequi quas praesentium blanditiis deserunt.
+                </p>
+            </div>
+            <div class="">
+                  <img class="wow md:animate__fadeInRight" src="./images/image-2.jpg" alt="image-1">  
+            </div>
+        </div>
+    </div>
+    <script>
+        wow = new WOW({
+                  boxClass:     'wow',      // default
+                  animateClass: 'animate__animated', // default
+                  offset:       100,          // default
+                  mobile:       true,       // default
+                  live:         true        // default
+            });
+        wow.init();
+    </script>
+</body>
+</html>
