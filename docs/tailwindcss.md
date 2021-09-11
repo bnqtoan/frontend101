@@ -1,12 +1,20 @@
+Tiền đề: bạn đã cài đặt NodeJS thành công trên máy tính. Để kiểm tra là đã cài đặt thành công NodeJS, bạn vào terminal, gõ `npm -v` nhấn enter, và `npx -v` nhấn enter, nếu ra được số version thì đã thành công, nếu bị báo lỗi thì comment bên dưới.
+
 ## 1. Cài đặt
+
+Trong terminal, di chuyển đến thư mục cần cài đặt bằng cách gõ lệnh `cd đường_dẫn_đến thư mục cần cài đặt>`, sau đó gõ:
 
 `npm init -y`
 
 `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
 
+Nếu bạn thấy trong thư mục có thư mục node_modules & file packages.json thì đã thành công.
+
 ## 2. Tạo file config
 
 `npx tailwindcss init -p`
+
+Nếu bạn thấy trong thư mục có thêm 2 file `tailwind.config.js` và `postcss.config.js` thì đã thành công.
 
 ## 3. Tạo file src/style.css
 
