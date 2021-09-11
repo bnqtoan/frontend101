@@ -25,7 +25,7 @@
 
 ## 2. Chạy install
 
-npm install && npm run tailwind
+`npm install && npm run tailwind`
 
 ## 3. Ghi đè file tailwind.config.js
 
