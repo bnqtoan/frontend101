@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npm install -D tailwindcss@latest postcss@latest autoprefixer@latest && npx tailwindcss init -p && node -e \"const fs = require('fs'); fs.existsSync('css') || fs.mkdirSync('css'); fs.existsSync('css/style.css') || fs.writeFileSync('css/style.css', '@tailwind base; @tailwind components; @tailwind utilities;')\"",
+    "tailwind": "npm install -D tailwindcss@latest postcss@latest autoprefixer@latest && npx tailwindcss init -p && node -e \"const fs = require('fs'); fs.existsSync('src') || fs.mkdirSync('src'); fs.existsSync('src/style.css') || fs.writeFileSync('css/style.css', '@tailwind base; @tailwind components; @tailwind utilities;')\"",
     "dev": "npx tailwindcss --postcss -i ./src/style.css -o ./css/style.css",
     "watch": "npx tailwindcss --postcss  -i ./src/style.css -o ./css/style.css --watch",
     "build": "NODE_ENV=production npx tailwindcss --postcss -i ./src/style.css -o ./css/style.css"
