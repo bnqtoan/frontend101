@@ -5,6 +5,9 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      "heading": "Arial, sans"
+    },
     extend: {
       container: {
         center: true
