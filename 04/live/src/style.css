@@ -5,3 +5,7 @@
 .sep{
     @apply inline-block w-14 h-0.5 bg-black rounded-5px;
 }
+
+.btn{
+    @apply hover:bg-blue-500 hover:text-white gap-4 inline-flex items-center py-5 px-10 rounded-full text-blue-500 font-bold border border-blue-500;
+}

@@ -604,6 +604,8 @@ video {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
   --tw-transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -653,12 +655,12 @@ video {
   position: relative;
 }
 
-.bottom-4 {
-  bottom: 1rem;
+.-top-4 {
+  top: -1rem;
 }
 
-.-bottom-4 {
-  bottom: -1rem;
+.right-6 {
+  right: 1.5rem;
 }
 
 .-bottom-2 {
@@ -667,14 +669,6 @@ video {
 
 .-left-2 {
   left: -0.5rem;
-}
-
-.-top-4 {
-  top: -1rem;
-}
-
-.right-6 {
-  right: 1.5rem;
 }
 
 .col-span-2 {
@@ -695,12 +689,20 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mt-30px {
   margin-top: 30px;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .grid {
@@ -747,6 +749,10 @@ video {
 
 .bg-footer {
   background-image: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.fill-current {
+  fill: currentColor;
 }
 
 .p-7 {
@@ -810,6 +816,30 @@ video {
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 9999px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(59, 130, 246, var(--tw-border-opacity));
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(59, 130, 246, var(--tw-text-opacity));
+}
+
+.btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -0.5rem;
   transform: var(--tw-transform);
@@ -822,6 +852,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
