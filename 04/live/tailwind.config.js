@@ -6,6 +6,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: {
+        footer: "linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%)"
+      },
       margin: {
         '30px': '30px'
       },

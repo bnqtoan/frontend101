@@ -645,6 +645,42 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.-bottom-4 {
+  bottom: -1rem;
+}
+
+.-bottom-2 {
+  bottom: -0.5rem;
+}
+
+.-left-2 {
+  left: -0.5rem;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .my-30px {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -655,24 +691,16 @@ video {
   margin-right: auto;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mt-30px {
   margin-top: 30px;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .grid {
@@ -691,8 +719,8 @@ video {
   transform: var(--tw-transform);
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .gap-8 {
@@ -707,14 +735,18 @@ video {
   border-radius: 20px;
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+.bg-footer {
+  background-image: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
 .p-7 {
@@ -724,6 +756,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .text-center {
@@ -746,10 +783,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.leading-none {
-  line-height: 1;
 }
 
 .text-gray-1000 {
@@ -777,11 +810,6 @@ video {
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
-.hover\:translate-y-2:hover {
-  --tw-translate-y: 0.5rem;
-  transform: var(--tw-transform);
-}
-
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -0.5rem;
   transform: var(--tw-transform);
@@ -793,16 +821,7 @@ video {
   transform: var(--tw-transform);
 }
 
-.hover\:shadow-none:hover {
-  --tw-shadow: 0 0 #0000;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 @media (min-width: 640px) {
-  .sm\:grid {
-    display: grid;
-  }
-
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
