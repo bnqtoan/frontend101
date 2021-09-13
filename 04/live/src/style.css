@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sep{
+    @apply inline-block w-14 h-0.5 bg-black rounded-5px;
+}
