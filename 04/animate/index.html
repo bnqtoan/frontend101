@@ -12,16 +12,24 @@
 <body>
     <div class="container px-auto">
         <h1 class="text-center text-5xl my-10 text-blue-600 wow md:animate__fadeInUp">Hello animate!</h1>
+        <div class="text-center wow md:animate__fadeInUp my-96">
+            Welcome to the site!
+        </div>
         <div class="grid sm:grid-cols-2 sm:mt-96 items-center gap-4">
-            <div class="wow md:animate__fadeInLeft">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate aliquam veniam totam et magni minus porro, nesciunt delectus quam ipsum ad blanditiis suscipit voluptatum debitis rem? Quam, quos numquam!
+            <div>
+                <p class="wow md:animate__fadeIn mb-8" data-wow-delay="1s">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate aliquam veniam totam et magni minus porro, nesciunt delectus quam ipsum ad blanditiis suscipit voluptatum debitis rem? Quam, quos numquam!
+                </p>
+                <p class="wow md:animate__fadeIn" data-wow-delay="1.5s">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate aliquam veniam totam et magni minus porro, nesciunt delectus quam ipsum ad blanditiis suscipit voluptatum debitis rem? Quam, quos numquam!
+                </p>
             </div>
             <div>
                   <img class="wow md:animate__fadeInRight" src="./images/image-1.jpg" alt="image-1">  
             </div>
         </div>
         <div class="grid sm:grid-cols-2 sm:mt-96 items-center gap-4">
-            <div class="wow md:animate__fadeInLeft lg:order-last">
+            <div class="wow md:animate__fadeInRight lg:order-last">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptate aliquam veniam totam et magni minus porro, nesciunt delectus quam ipsum ad blanditiis suscipit voluptatum debitis rem? Quam, quos numquam!
                 </p>
@@ -30,7 +38,7 @@
                 </p>
             </div>
             <div class="">
-                  <img class="wow md:animate__fadeInRight" src="./images/image-2.jpg" alt="image-1">  
+                  <img class="wow md:animate__fadeInLeft" src="./images/image-2.jpg" alt="image-1">  
             </div>
         </div>
     </div>
@@ -38,7 +46,7 @@
         wow = new WOW({
                   boxClass:     'wow',      // default
                   animateClass: 'animate__animated', // default
-                  offset:       100,          // default
+                  offset:       50,          // default
                   mobile:       true,       // default
                   live:         true        // default
             });
