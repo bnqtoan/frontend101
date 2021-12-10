@@ -5,13 +5,14 @@
   
 ## Setup git repo
 1. Tạo 1 git repo trên github
-2. Dưới máy, mở vs code, mở termial vs code
+2. <img width="1279" alt="image" src="https://user-images.githubusercontent.com/2143150/145515480-6e90c7db-a15a-49f8-8284-0948835080be.png">
+3. Dưới máy, mở vs code, mở termial vs code
 
 ### Cấu hình lần đầu
 1. `git config --global user.email="<email bạn đã đăng ký với github>"`
 2. `git config --global user.name="<tên bạn>"`
 3. `git init`
-4. Tạo file .gitignore, nội dung node_modules --> để ignore các thư mục node_modules, không push lên git
+4. Tạo file tên là `.gitignore`, điền nội dung `node_modules` --> để ignore các thư mục node_modules, không push lên git
 5. `git add .`
 6. `git commit -m "initialize"`
 7. `git remote add origin "<git repo url>"`
