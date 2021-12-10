@@ -39,7 +39,7 @@ Nếu bạn thấy trong thư mục có thêm 2 file `tailwind.config.js` và `p
   "devDependencies": {
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.14"
+    "tailwindcss": "^3.0.0"
   }
 }
 ```
@@ -47,11 +47,10 @@ Nếu bạn thấy trong thư mục có thêm 2 file `tailwind.config.js` và `p
 ## 5. Ghi đè nội dung file tailwind.config.js
 ```
 module.exports = {
-  mode: 'jit',
-  purge: [
+  content: [
     "**/*.html"
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
   },
