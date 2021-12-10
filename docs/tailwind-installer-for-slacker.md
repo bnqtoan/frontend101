@@ -2,7 +2,7 @@
 
 ```
 {
-  "name": "scripts",
+  "name": "your-project-name",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.15"
+    "tailwindcss": "^3.0.0"
   }
 }
 ```
@@ -31,11 +31,10 @@
 
 ```
 module.exports = {
-  mode: 'jit',
-  purge: [
+  content: [
     "**/*.html"
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
   },
