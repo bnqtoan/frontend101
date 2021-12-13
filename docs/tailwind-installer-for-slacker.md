@@ -1,4 +1,6 @@
-## 1. Tạo file package.json
+Giả sử bạn đang cần cài đặt tailwind vào thư mục dự án tại ổ `D:\Frontend\tailwind-project`
+
+## 1. Tạo file package.json (trong thư mục tailwind-project)
 
 ```
 {
@@ -24,6 +26,8 @@
 ```
 
 ## 2. Chạy install
+
+Di chuyển vào thư mục cần cài đặt tailwind bằng lệnh cd, vd: `cd D:\Frontend\tailwind-project` hoặc `cd tailwind-project` nếu terminal của bạn đang ở D:\Frontend. Sau đó chạy lệnh:
 
 `npm run tailwind`
 
