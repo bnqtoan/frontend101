@@ -21,7 +21,7 @@
 6. `git remote add origin "<git repo url>"`
 7. `git push -u origin main`
 
-Ở bước 6, máy tính của bạn có thể yêu cầu đăng nhập github.
+Ở bước 7, máy tính của bạn có thể yêu cầu đăng nhập github.
   
   ### Cập nhật git những lần sau
   1. `git add .`
