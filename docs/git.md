@@ -17,8 +17,9 @@
 2. Tạo file tên là `.gitignore`, điền nội dung `node_modules` --> để ignore các thư mục node_modules, không push lên git
 3. `git add .`
 4. `git commit -m "initialize"`
-5. `git remote add origin "<git repo url>"`
-6. `git push -u origin main`
+5. `git branch -M main`
+6. `git remote add origin "<git repo url>"`
+7. `git push -u origin main`
 
 Ở bước 6, máy tính của bạn có thể yêu cầu đăng nhập github.
   
