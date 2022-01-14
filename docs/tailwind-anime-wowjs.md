@@ -53,5 +53,5 @@ Chèn script trước khi đóng thẻ body
 
 Ví dụ
 ```
-<p class="animate__backInDown">Chiều xuống, tôi ngồi lại bãi biển ngắm hoàng hôn, không gian được phủ bởi một sắc tím đẹp đến nao lòng.</p>
+<p class="wow animate__fadeIn">Chiều xuống, tôi ngồi lại bãi biển ngắm hoàng hôn, không gian được phủ bởi một sắc tím đẹp đến nao lòng.</p>
 ```
