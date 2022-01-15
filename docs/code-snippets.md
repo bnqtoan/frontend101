@@ -1,7 +1,9 @@
 ## Các code snippet hữu ích
 
 Để định nghĩa code snippet mới, vào Preferrence > User snippets, mở file tương ứng theo loại ngôn ngữ cần định nghĩa snippet, dán vào file snippet có sẵn.
-[Xem thêm](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+[Xem thêm tài liệu chính thức đầy đủ](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
+[Tool giúp sinh code snippets](https://snippet-generator.app)
 
 ### File package.json
 
