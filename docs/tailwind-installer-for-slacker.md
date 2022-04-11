@@ -20,7 +20,7 @@ Giả sử bạn đang cần cài đặt tailwind vào thư mục dự án tại
   "devDependencies": {
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^3.0.0"
+    "tailwindcss": "^3.0.23"
   }
 }
 ```
