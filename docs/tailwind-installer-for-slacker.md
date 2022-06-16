@@ -4,7 +4,7 @@ Giả sử bạn đang cần cài đặt tailwind vào thư mục dự án tại
 
 ```
 {
-  "name": "your-project-name",
+  "name": "frontend-danh-cho-designer-by-telos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,9 +18,9 @@ Giả sử bạn đang cần cài đặt tailwind vào thư mục dự án tại
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^3.0.23"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
   }
 }
 ```
