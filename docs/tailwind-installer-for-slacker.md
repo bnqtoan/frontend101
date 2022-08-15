@@ -16,12 +16,7 @@ Giả sử bạn đang cần cài đặt tailwind vào thư mục dự án tại
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
-  }
+  "license": "ISC"
 }
 ```
 
