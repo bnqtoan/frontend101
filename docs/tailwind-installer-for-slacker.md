@@ -18,9 +18,9 @@ Giả sử bạn đang cần cài đặt tailwind vào thư mục dự án tại
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.3"
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
 ```
@@ -34,6 +34,7 @@ Di chuyển vào thư mục cần cài đặt tailwind bằng lệnh cd, vd: `cd
 ## 3. Ghi đè file tailwind.config.js
 
 ```
+/** @type {import('tailwindcss').Config} */ 
 module.exports = {
   content: [
     "**/*.html"
